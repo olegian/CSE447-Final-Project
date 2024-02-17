@@ -19,6 +19,7 @@ for idx, row in df.iterrows():
     choices_list = list(row["choices"]["text"])
 
     if new_point["answerKey"] == "E":
+        # note idx == 6 has a 'E' answer
         possible = ["A", "B", "C", "D"]
         new_answer = random.choice(possible)
         new_idx = possible.index(new_answer)
@@ -34,8 +35,4 @@ for idx, row in df.iterrows():
 
 with open(DATA_FOLDER / OUTPUT_FILE, mode="w") as f:
     json.dump(data, f)
-
-datasets.DatasetDict.from_json()
-
-   
    
