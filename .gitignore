@@ -1,2 +1,3 @@
 data/strategy_qa/*
 data/commonsense_qa/*
+*.DS_Store
