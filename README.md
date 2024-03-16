@@ -1,5 +1,5 @@
 # Optimizing OpenBookQA with Dataset Augmentation
-This repo contains all scripts used within "Optimizing OpenBookQA: Investigating the Impact of Pretraining with Diverse Scientific Knowledge" by Rohith Leeladharan, Parum Misri, Archit Pantankar, and Oleg Ianchenko as a final project for UW CSE 447.  A description of each script and notebook is contained within the paper.
+This repo contains all scripts used within "Optimizing OpenBookQA: Investigating the Impact of Pretraining with Diverse Scientific Knowledge" by Rohith Leeladharan, Parum Misri, Archit Patankar, and Oleg Ianchenko as a final project for UW CSE 447.  A description of each script and notebook is contained within the paper.
 
 ## File Structure
 Below are descriptions of all folders contained within this repo.
